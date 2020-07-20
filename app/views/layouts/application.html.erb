@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaxwellInterview</title>
+    <%= csrf_meta_tags %>
+    <%= javascript_include_tag "application" %>
+    <%= javascript_pack_tag 'maxwellInterviewApp/index' %>
+    <%= stylesheet_link_tag "application", :media => 'all' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
